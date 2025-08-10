@@ -48,7 +48,7 @@ function App() {
     },
     {
       name: 'JWT',
-      icon: 'https://cdn.iconscout.com/icon/free/png-256/free-jwt-3-1174932.png',
+      icon: 'https://www.jwt.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjwt-flower.f20616b0.png&w=1920&q=75',
       color: 'text-[#000000]',
     },
     {
