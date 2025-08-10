@@ -89,7 +89,7 @@ function App() {
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 animate-pulse"></div>
             </div>
             <p className="text-xl md:text-2xl text-starWhite/90 mb-8 animate-fade-in opacity-0 [animation-delay:1000ms] max-w-2xl mx-auto leading-relaxed">
-              Delivering powerful backend systems with expertise in MEAN stack and full-stack web development.
+              Delivering high-performance backend solutions with expertise in Node.js, Express, and scalable API development.
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
@@ -140,10 +140,10 @@ function App() {
                 About Me
               </h2>
               <p className="text-starWhite/80 leading-relaxed">
-                I'm a highly motivated Backend Developer with a strong academic foundation in Computer Science and 1+ years of practical experience in Back-End development. I specialize in NodeJS, RESTful API development, and diverse database systems including MongoDB, MySQL, and PostgreSQL.
+                I’m a highly driven Backend Developer with a solid foundation in Computer Science and over a year of hands-on experience in backend development. I specialize in Node.js, RESTful API design, and working with diverse database systems, including MongoDB, MySQL, and PostgreSQL.
               </p>
               <p className="text-starWhite/80 leading-relaxed">
-                Currently pursuing my degree at Cairo University's Faculty of Computer Science and Artificial Intelligence, I'm passionate about building scalable solutions and enhancing user experience through innovative software development.
+                Currently pursuing my degree at Cairo University’s Faculty of Computer Science and Artificial Intelligence, I’m passionate about building scalable backend solutions and enhancing user experiences through innovative software development.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="group bg-deepSpace/50 border border-nebulaPink/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
@@ -175,7 +175,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Talabat E-commerce Website"
-              description="Complete e-commerce web application using MongoDB, Express.js, Angular, and Node.js, enabling smooth product browsing, cart management, and order processing with user authentication and admin dashboard."
+              description="Developed a robust backend and RESTful API for an e-commerce application using Node.js, Express.js, and MongoDB, supporting secure user authentication, efficient product management, cart operations, and order processing with role-based access for admins."
               image="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80"
               tags={['MongoDB', 'Express.js', 'Angular', 'Node.js', 'Authentication', 'Admin Dashboard']}
               codeLink="https://github.com/Farouk-Osman"
