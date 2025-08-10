@@ -17,14 +17,9 @@ import MeteorShower from './components/MeteorShower';
 function App() {
   const skills = [
     {
-      name: 'JavaScript',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-      color: 'text-[#F7DF1E]',
-    },
-    {
-      name: 'Node.js',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-      color: 'text-[#339933]',
+    name: 'Node.js',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+    color: 'text-[#339933]'
     },
     {
       name: 'Express.js',
@@ -47,19 +42,29 @@ function App() {
       color: 'text-[#336791]',
     },
     {
-      name: 'Python',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
-      color: 'text-[#3776AB]',
+      name: 'JavaScript',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      color: 'text-[#F7DF1E]',
     },
     {
-      name: 'Java',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
-      color: 'text-[#ED8B00]',
+      name: 'JWT',
+      icon: 'https://cdn.iconscout.com/icon/free/png-256/free-jwt-3-1174932.png',
+      color: 'text-[#000000]',
     },
     {
-      name: 'C++',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
-      color: 'text-[#00599C]',
+      name: 'REST API',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png',
+      color: 'text-[#00A4EF]',
+    },
+    {
+      name: 'Postman',
+      icon: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
+      color: 'text-[#FF6C37]',
+    },
+    {
+      name: 'Docker',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      color: 'text-[#2496ED]',
     },
     {
       name: 'Git',
@@ -67,6 +72,7 @@ function App() {
       color: 'text-[#F05032]',
     },
   ];
+
 
   return (
     <div className="min-h-screen bg-deepSpace text-white relative overflow-hidden">
