@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Users } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from './lib/supabase';
 
 const VisitorCounter = () => {
   const [visitorCount, setVisitorCount] = useState<number>(0);

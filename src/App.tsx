@@ -34,11 +34,6 @@ function App() {
       color: 'text-[#000000]',
     },
     {
-      name: 'Angular',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
-      color: 'text-[#DD0031]',
-    },
-    {
       name: 'MongoDB',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       color: 'text-[#47A248]',
@@ -72,11 +67,6 @@ function App() {
       name: 'Git',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
       color: 'text-[#F05032]',
-    },
-    {
-      name: 'Django',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
-      color: 'text-[#092E20]',
     },
   ];
 
@@ -141,7 +131,7 @@ function App() {
               <div className="relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-nebulaPink/20 to-cosmicBlue/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
-                  src="/farouk-photo.jpg"
+                  src="/public/farouk-photo.jpg"
                   alt="Farouk Hamdi Farouk"
                   className="rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -152,7 +142,7 @@ function App() {
                 About Me
               </h2>
               <p className="text-starWhite/80 leading-relaxed">
-                I'm a highly motivated Backend Developer with a strong academic foundation in Computer Science and 1+ years of practical experience in full-stack web development. I specialize in MEAN stack technologies, RESTful API development, and diverse database systems including MongoDB, MySQL, and PostgreSQL.
+                I'm a highly motivated Backend Developer with a strong academic foundation in Computer Science and 1+ years of practical experience in Back-End development. I specialize in NodeJS, RESTful API development, and diverse database systems including MongoDB, MySQL, and PostgreSQL.
               </p>
               <p className="text-starWhite/80 leading-relaxed">
                 Currently pursuing my degree at Cairo University's Faculty of Computer Science and Artificial Intelligence, I'm passionate about building scalable solutions and enhancing user experience through innovative software development.
