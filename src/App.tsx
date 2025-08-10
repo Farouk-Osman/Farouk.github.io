@@ -5,6 +5,7 @@ import {
   User,
   Briefcase,
   Rocket,
+  Coffee,
 } from 'lucide-react';
 import NavBar from './components/NavBar';
 import ProjectCard from './components/ProjectCard';
