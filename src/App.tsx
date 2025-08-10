@@ -1,9 +1,7 @@
-import React from 'react';
 import {
   Github,
   Linkedin,
   Mail,
-  ExternalLink,
   User,
   Briefcase,
   Rocket,
@@ -13,7 +11,6 @@ import ProjectCard from './components/ProjectCard';
 import ContactForm from './components/ContactForm';
 import SkillCard from './components/SkillCard';
 import StarField from './components/StarField';
-import { XIcon } from './components/XIcon';
 import MeteorShower from './components/MeteorShower';
 
 function App() {
