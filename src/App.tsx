@@ -177,7 +177,7 @@ function App() {
               title="Talabat E-commerce Website"
               description="Developed a robust backend and RESTful API for an e-commerce application using Node.js, Express.js, and MongoDB, supporting secure user authentication, efficient product management, cart operations, and order processing with role-based access for admins."
               image="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80"
-              tags={['MongoDB', 'Express.js', 'Angular', 'Node.js', 'Authentication', 'Admin Dashboard']}
+              tags={['MongoDB', 'Express.js', 'Node.js', 'Authentication', 'RESTful API', 'E-commerce', 'Backend Development', 'JWT', 'CRUD Operations']}
               codeLink="https://github.com/Farouk-Osman"
             />
           </div>
