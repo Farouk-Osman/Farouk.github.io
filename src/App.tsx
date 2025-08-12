@@ -32,6 +32,16 @@ function App() {
       color: 'text-[#47A248]',
     },
     {
+      name: 'Mongoose',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg',
+      color: 'text-[#880000]',
+    },
+    {
+      name: 'MS SQL Server',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
+      color: 'text-[#CC2927]',
+    },
+    {
       name: 'MySQL',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
       color: 'text-[#4479A1]',
