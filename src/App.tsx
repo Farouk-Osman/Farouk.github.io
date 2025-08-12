@@ -71,6 +71,16 @@ function App() {
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
       color: 'text-[#F05032]',
     },
+    {
+      name: 'Nest.js',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg',
+      color: 'text-[#F05032]',
+    },
+    {
+    name: 'TypeScript',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+    color: 'text-[#3178C6]'
+    }
   ];
 
 
