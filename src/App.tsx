@@ -119,7 +119,6 @@ function App() {
               <br />
               <br />
               Let's connect and explore how I can contribute to your next project!
-              
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
