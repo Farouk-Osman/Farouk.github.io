@@ -63,8 +63,8 @@ function App() {
     },
     {
       name: 'REST API',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg',
-      color: 'text-[#FF6C37]',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png',
+      color: 'text-[#00A4EF]',
     },
     {
       name: 'Postman',
@@ -119,7 +119,7 @@ function App() {
               <br />
               <br />
               Let's connect and explore how I can contribute to your next project!
-
+              
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
