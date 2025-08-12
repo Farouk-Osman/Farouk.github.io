@@ -115,7 +115,11 @@ function App() {
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 animate-pulse"></div>
             </div>
             <p className="text-xl md:text-2xl text-starWhite/90 mb-8 animate-fade-in opacity-0 [animation-delay:1000ms] max-w-2xl mx-auto leading-relaxed">
-              Delivering high-performance backend solutions with expertise in Node.js, Express, and scalable API development.
+              I specialize in building robust backend systems using Node.js, Express.js, Nestjs and various database technologies. My passion lies in creating efficient, scalable, and secure applications that enhance user experiences.
+              <br />
+              <br />
+              Let's connect and explore how I can contribute to your next project!
+              
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
