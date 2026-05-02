@@ -16,9 +16,24 @@ import MeteorShower from './components/MeteorShower';
 function App() {
   const skills = [
     {
-    name: 'Node.js',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-    color: 'text-[#339933]'
+      name: 'C++',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
+      color: 'text-[#00599C]',
+    },
+    {
+      name: 'Java',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+      color: 'text-[#007396]',
+    },
+    {
+      name: 'JavaScript',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      color: 'text-[#F7DF1E]',
+    },
+    {
+      name: 'Node.js',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+      color: 'text-[#339933]',
     },
     {
       name: 'Express.js',
@@ -31,16 +46,6 @@ function App() {
       color: 'text-[#47A248]',
     },
     {
-      name: 'Mongoose',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg',
-      color: 'text-[#880000]',
-    },
-    {
-      name: 'MS SQL Server',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
-      color: 'text-[#CC2927]',
-    },
-    {
       name: 'MySQL',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
       color: 'text-[#4479A1]',
@@ -51,19 +56,34 @@ function App() {
       color: 'text-[#336791]',
     },
     {
-      name: 'JavaScript',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-      color: 'text-[#F7DF1E]',
+      name: 'MS SQL Server',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
+      color: 'text-[#CC2927]',
     },
     {
-      name: 'JWT',
-      icon: 'https://www.jwt.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjwt-flower.f20616b0.png&w=1920&q=75',
-      color: 'text-[#000000]',
+      name: 'SQLite',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg',
+      color: 'text-[#003B57]',
     },
     {
-      name: 'REST API',
-      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968322.png',
-      color: 'text-[#00A4EF]',
+      name: 'HTML5',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+      color: 'text-[#E34F26]',
+    },
+    {
+      name: 'CSS3',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+      color: 'text-[#1572B6]',
+    },
+    {
+      name: 'React',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+      color: 'text-[#61DAFB]',
+    },
+    {
+      name: 'Angular',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
+      color: 'text-[#DD0031]',
     },
     {
       name: 'Postman',
@@ -71,9 +91,9 @@ function App() {
       color: 'text-[#FF6C37]',
     },
     {
-      name: 'Docker',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-      color: 'text-[#2496ED]',
+      name: 'Swagger',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg',
+      color: 'text-[#85EA2D]',
     },
     {
       name: 'Git',
@@ -81,14 +101,29 @@ function App() {
       color: 'text-[#F05032]',
     },
     {
-      name: 'Nest.js',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg',
-      color: 'text-[#F05032]',
+      name: 'PowerShell',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg',
+      color: 'text-[#5391FE]',
     },
     {
-    name: 'TypeScript',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
-    color: 'text-[#3178C6]'
+      name: 'Visual Studio',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg',
+      color: 'text-[#5C2D91]',
+    },
+    {
+      name: 'VS Code',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+      color: 'text-[#007ACC]',
+    },
+    {
+      name: 'npm',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg',
+      color: 'text-[#CB3837]',
+    },
+    {
+      name: 'Linux',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+      color: 'text-[#FCC624]',
     }
   ];
 
@@ -329,5 +364,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
